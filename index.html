@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simkojn</title>
+    <meta name="description" content="simkojn: using simkojn as currency">
+    <meta name="theme-color" content="#ff0000">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+<style>
+
+</style>
+</head>
+
+<body>
+    <nav class="demo">
+        <a href="#" class="brand">
+          <img class="logo" src="images/simkojn.logo.gif" />
+          <span><i>- the offline currency❤️</i></span>
+        </a>
+      
+        <!-- responsive-->
+        <input id="bmenub" type="checkbox" class="show">
+        <label for="bmenub" class="burger pseudo button">menu</label>
+      
+        <div class="menu">
+          <a href="#issuing" class="pseudo button icon-picture">Issuing new simkoijns</a>
+          <a href="#usecases" class="button icon-puzzle">Usecases</a>
+          <a href="#simcards" class="button icon-puzzle">Why simcards?</a>
+        </div>
+      </nav>
+    <div class="flex one demo">
+        <div>
+            <article>
+                <header>
+                    <h3>Simkojn - using simcards as offline currency!</h3>
+                </header>
+                <section class="content">
+                    When thinking about offline currency and simcards we identified the following:
+
+
+                    <ul>
+                        <li><b>verifiable</b> centrally issued identifier printed on card and can be verified by
+                            inserting into any phone</li>
+                        <li><b>coin-like</b> small physical tokens</li>
+                        <li><b>offline</b> verification processes could be as simple as a distributed poster with
+                            whitelisted id's</li>
+                        <li><b>distributed and decentralized</b> bootstrapping based on trust in accepted id's</li>
+                    </ul>
+                </section>
+                <footer>
+
+                </footer>
+            </article>
+        </div>
+        <div id="issuing">
+            <article >
+                <header>
+                    <h3>Issuing simkojns</h3>
+                </header>
+                <section class="content">
+                    <p>A group of people decide to issue some simkojns by organizing a <b>simkojn-party</b>:</p>
+                    <img width="50%" src="images/simkojn_party.webp" alt="">
+                    <ol>
+                        <li>people are told to bring an unused simcard</li>
+                        <li>all simcards are verified that their printed ID matches that which have been flashed upon
+                            them
+                        </li>
+                        <li>all simcard ID's are written in a alphabetically sorted document</li>
+                        <li>the document is printed out and goes around to all attendants</li>
+                        <li>each person finds their simcard id in the list and writes their signature next to it</li>
+                        <li>the document is copied so all attendants get a copy</li>
+                        <li>meeting is over, everybody leaves with each a simcard and a poster with the issued ID's</li>
+                    </ol>
+                </section>
+                <footer>
+
+                </footer>
+            </article>
+        </div>
+        <div id="usecases">
+            <h2>Usecases:</h3>
+        </div>
+        <div >
+            <article>
+                <header>
+                    <h3>1. Buying a cop of coffee with a valid simkojn</h3>
+                </header>
+                <section class="content">
+                    <p>Kim walks into a coffeeshop and orders a cop of coffee:</p>
+                    <img width="50%" src="images/buying_coffee.webp" alt="">
+
+                    <ol>
+                        <li><b>Kim:</b> I'd like to pay with simkojn</li>
+                        <li><b>Barista:</b> its one simkojn for a coffee</li>
+                        <li><b>Kim:</b> here is a simkojn <br><i>kim hands over a simkojn with <b>ID=145b</b></i></li>
+                        <li><b>Barista:</b> thanks, let me just verify :-) <br><i>barista looks at the poster and
+                                quickly finds <b>145b</b> on the ordered list</i></li>
+                        <li><b>Barista:</b> thanks kim, have a great day <br><i>barista puts the simcard in the
+                                register</i></li>
+                        <li><b>Kim:</b> you too, see ya</li>
+                    </ol>
+                </section>
+                <footer>
+
+                </footer>
+            </article>
+        </div>
+        <div>
+            <article>
+                <header>
+                    <h3>2. Buying a cop of coffee with an unknown simkojn</h3>
+                </header>
+                <section class="content">
+                    <p>Kim walks into a coffeeshop and orders a cop of coffee:</p>
+                    <img width="50%" src="images/showing_poster.jpeg" alt="">
+
+                    <ol>
+                        <li><b>Kim:</b> I'd like to pay with simkojn</li>
+                        <li><b>Barista:</b> its one simkojn for a coffee</li>
+                        <li><b>Kim:</b> here is a simkojn <br><i>kim hands over a simkojn with <b>ID=170b</b></i></li>
+                        <li><b>Barista:</b> thanks, let me just verify :-) <br><i>barista looks at the poster and
+                                can't find <b>170b</b> on the ordered list</i></li>
+                        <li><b>Barista:</b> sorry kim, i can't take the simkojn as its not on my list of accepted serial
+                            numbers</li>
+                        <li><b>Kim:</b> hmm, thats odd i received it as payment in my barber shop and its on my poster
+                        </li>
+                        <li><b>Barista:</b> i guess you have a attended a simkojn party i didnt attend, would you be
+                            willing to drop by with two other people that attended that simkojn party plus a copy of the
+                            handed out poster?</li>
+                        <li><b>Kim:</b> sure!!, see you in 5 minutes <br><i>Kim leaves and comes back with two people
+                                (Finn and Oscar) plus a piece of paper</i></li>
+                        <li><b>Barista:</b> can i see the poster and can you tell me about the simkojn-party?
+                            <br><i>Barista receives the poster and verifies that <b>170b</b> is indeed on the list</i>
+                        </li>
+                        <li>Kim, Finn, Oscar and Barista establishes trust in the mentioned simkojn-party and decides
+                            that the new poster will be valid in the coffeeshop
+                            <br>They verify that the signature of Kim, Finn and Oscar indeed is on the printout.
+                            <br>Futhermore a customer in the coffeeshop also verifies the list and locates his signature
+                            on it.
+                        </li>
+                    </ol>
+                </section>
+                <footer>
+
+                </footer>
+            </article>
+        </div>
+        <div id="simcards">
+            <article>
+                <header>
+                    <h3>Why simcards?</h3>
+                </header>
+                <section class="content">
+                    <p>Simcards have the following interesting properties making it nice as a physical currency:</p>
+                    <img width="50%" src="images/simcards.jpg" alt="">
+
+                    <ol>
+                        <li><b>globally trusted ICCID number</b>
+                            <br>ICCID is printed on the simcard plus readable with a phone from memory on simcard.
+                            <br><a href="https://en.wikipedia.org/wiki/SIM_card#ICCID">wikipedia</a> says : <br>
+                            <i>"Each SIM is internationally identified by its integrated circuit card identifier (ICCID). Nowadays ICCID numbers are also used to identify eSIM profiles, not only physical SIM cards. ICCIDs are stored in the SIM cards and are also engraved or printed on the SIM card body during a process called personalisation.
+
+                                The ICCID is defined by the ITU-T recommendation E.118 as the primary account number.[19] Its layout is based on ISO/IEC 7812. According to E.118, the number can be up to 19 digits long, including a single check digit calculated using the Luhn algorithm. However, the GSM Phase 1[20] defined the ICCID length as an opaque data field, 10 octets (20 digits) in length, whose structure is specific to a mobile network operator."</i>
+                        </li>
+                        <li><b>"free" physical tokens.</b>
+                        <br>its easy to find simcards, they are in the trash, you <a href="https://www.lycamobile.dk/da/freesim/">get them sent to you for free</a></li>
+                        <li><b>nice size</b>
+                        <br>simcards are about the size of a <a href="https://da.wikipedia.org/wiki/25-%C3%B8re">25 øre</a>
+                    . You can easily carry them in a wallet</li>
+                    </ol>
+                </section>
+                <footer>
+
+                </footer>
+            </article>
+        </div>
+    </div>
+</body>
+
+</html>
